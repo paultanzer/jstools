@@ -1,0 +1,19 @@
+{
+  "name": "jstools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paultanzer/jstools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paultanzer/jstools/issues"
+  },
+  "homepage": "https://github.com/paultanzer/jstools#readme"
+}

@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Find the data</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">One List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="twolists.html">Two Lists</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4>Find the data</h4>
+        <textarea class="form-control" id="data" rows="10" cols="50"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <select class="form-control" id="select">
+          <option value="">find - equal</option>
+          <option value="list1">find - contains</option>
+          <option value="list2">duplicates</option>
+          <option value="list2">non duplicates</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <input class="form-control" id="search" type="text" placeholder="search" />
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary" id="searchbutton">Go</button>
+      </div>
+    </div>
+</body>
+
+</html>
